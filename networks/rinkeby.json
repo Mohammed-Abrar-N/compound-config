@@ -61,9 +61,9 @@
     "cETH": "0xd6801a1DfFCd0a410336Ef88DeF4320D6DF1883e",
     "cUSDC": "0x5B281A6DdA0B271e91ae35DE655Ad301C976edb1",
     "cSAI": "0x6D7F0754FFeb405d23C51CE938289d4835bE3b14",
-    "cDAI": "0x6D7F0754FFeb405d23C51CE938289d4835bE3b14",
+    "cDAI": "0xb00CC3f7A96785aAa1606E445d08bdC88622a101",
     "cUSDT": "0x2fB298BDbeF468638AD6653FF8376575ea41e768",
-    "address": "0x5722A3F60fa4F0EC5120DCD6C386289A4758D1b2"
+    "address": "0x8a9d13D7eD9850E947295C3e8F7e32Af5AA6a505"
   },
   "Maximillion": {
     "description": "Maximillion",
@@ -80,7 +80,7 @@
   },
   "Comptroller": {
     "StdComptroller": {
-      "address": "0x99127FD9840Cbc2bBfF43dF443887f4d96268916",
+      "address": "0x2393f04457daE15282cF09A8d2f34DF0B7C07039",
       "contract": "Comptroller",
       "description": "Standard Comptroller Impl"
     },
@@ -277,7 +277,7 @@
       "underlying": "0xbF7A7169562078c96f0eC1A8aFD6aE50f12e5A99",
       "contract": "CErc20",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
-      "address": "0xEBf1A11532b93a529b5bC942B4bAA98647913002"
+      "address": "0xCe84722C23f74e42b986C835f13799A2bAC3Fd8f"
     },
     "cDAI": {
       "name": "Compound Dai 📈",
@@ -286,7 +286,7 @@
       "underlying": "0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa",
       "contract": "CErc20",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
-      "address": "0x6D7F0754FFeb405d23C51CE938289d4835bE3b14"
+      "address": "0xb00CC3f7A96785aAa1606E445d08bdC88622a101"
     },
     "cREP": {
       "name": "Compound Augur 📈",
