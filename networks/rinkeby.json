@@ -7,7 +7,7 @@
     "PriceOracleProxy": "0x8a9d13D7eD9850E947295C3e8F7e32Af5AA6a505",
     "Maximillion": "0xFBBDBa59516adA2eADf50f96cE0151edC9e0A674",
     "Base200bps_Slope2000bps_Jump20000bps_Kink90": "0x5e237767da01d6fEF0D238aFe6a1EE02c43D8218",
-    "cDAI": "0x6D7F0754FFeb405d23C51CE938289d4835bE3b14",
+    "cDAI": "0xb00CC3f7A96785aAa1606E445d08bdC88622a101",
     "CompoundLens": "0x04EC9f6Ce8ca39Ee5c7ADE95C69e38ddcaA8CbB7",
     "DAI": "0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa",
     "StdComptroller": "0x99127FD9840Cbc2bBfF43dF443887f4d96268916",
@@ -15,7 +15,7 @@
     "USDT": "0xD9BA894E0097f8cC2BBc9D24D308b98e36dc6D02",
     "Comptroller": "0x2393f04457daE15282cF09A8d2f34DF0B7C07039",
     "cUSDT": "0x2fB298BDbeF468638AD6653FF8376575ea41e768",
-    "cBAT": "0xEBf1A11532b93a529b5bC942B4bAA98647913002",
+    "cBAT": "0xCe84722C23f74e42b986C835f13799A2bAC3Fd8f",
     "Base0bps_Slope2000bps": "0x1A43BFd39B15DcF444e17Ab408C4b5be32DEB7F5",
     "BAT": "0xbF7A7169562078c96f0eC1A8aFD6aE50f12e5A99",
     "cETH": "0xd6801a1DfFCd0a410336Ef88DeF4320D6DF1883e",
@@ -150,10 +150,10 @@
       "name": "Compound Dai 📈",
       "symbol": "cDAI",
       "decimals": 8,
-      "underlying": "0xb00CC3f7A96785aAa1606E445d08bdC88622a101",
+      "underlying": "0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa",
       "contract": "CErc20",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
-      "address": "0x5deb7cb1fAD881f661ECe07abd8d0034DeEa99DC"
+      "address": "0xb00CC3f7A96785aAa1606E445d08bdC88622a101"
     },
     "DAI": {
       "name": "Dai",
@@ -183,10 +183,10 @@
       "name": "Compound Basic Attention Token 📈",
       "symbol": "cBAT",
       "decimals": 8,
-      "underlying": "0xCe84722C23f74e42b986C835f13799A2bAC3Fd8f",
+      "underlying": "0xbF7A7169562078c96f0eC1A8aFD6aE50f12e5A99",
       "contract": "CErc20",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
-      "address": "0xc3013d5b4909EAc2549A9929e6023AB9af2e4537"
+      "address": "0xCe84722C23f74e42b986C835f13799A2bAC3Fd8f"
     },
     "BAT": {
       "name": "Basic Attention Token",
