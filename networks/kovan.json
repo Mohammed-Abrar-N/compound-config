@@ -23,15 +23,15 @@
     "Jug": "0xcbB7718c9F39d05aEEDE1c472ca8Bf804b2f1EaD",
     "Pot": "0xEA190DBDC7adF265260ec4dA6e9675Fd4f5A78bb",
     "cDaiDelegate": "0xC8016288dB9dFE5a1cA2503879dCDE8807377186",
-    "Unitroller": "0x5eAe89DC1C671724A672ff0630122ee834098657",
-    "cZRX": "0xAf45ae737514C8427D373D50Cd979a242eC59e5a",
+    "Unitroller": "0xC3e58785F3EF826dD5B69E1849eBC33353912160",
+    "cZRX": "0x719CDa29Aab7e4F9E3AF6550999D6a008Da1a2aB",
     "cWBTC": "0xa1fAA15655B0e7b6B6470ED3d096390e6aD93Abb",
     "cUSDT": "0x3f0A0EA2f86baE6362CF9799B523BA06647Da018",
-    "cUSDC": "0x4a92E71227D294F041BD82dd8f78591B75140d63",
+    "cUSDC": "0x3eb9448Cd1431caa8241A2510014478eBF237640",
     "cETH": "0x41B5844f4680a8C38fBb695b7F9CFd1F64474a72",
     "cSAI": "0xb3f7fB482492f4220833De6D6bfCC81157214bEC",
     "cREP": "0xA4eC170599a1Cf87240a35b9B1B8Ff823f448b57",
-    "cBAT": "0x4a77fAeE9650b09849Ff459eA1476eaB01606C7a",
+    "cBAT": "0xc77B8cC952559645F25cCDaC202b9841f1030C15",
     "Reservoir": "0x33deD5C4eA51dBC7AF955396839655EFe13E3F1b",
     "GovernorAlpha": "0x665a5f09716d63D9256934855b0CE2056a5C4Cf8",
     "GovernorBravo": "0x100044C436dfb66FF106157970bC89f243411Ffd",
@@ -58,11 +58,11 @@
     "Pair_ETH_USDC": "0x4e8d753812879407f8341105eef9a43fc8f350A2",
     "oracle": "0x37ac0cb24b5DA520B653A5D94cFF26EB08d4Dc02",
     "CrowdProposalFactory": "0x1CcD74460eE10f25c3A24c08972F39215393Fa58",
-    "Comptroller": "0x5eAe89DC1C671724A672ff0630122ee834098657",
+    "Comptroller": "0x6662473b205769ECde88e57985d2c231CA193216",
     "PriceFeedPoster": "0x83563ba7F1B093aae57Fe876f8D870f8a1508886",
     "CommunityComptroller": "0xA06058e40d6a6Dd0D5Dc4c6C394864BCA74d3002",
-    "PriceOracle": "0x37ac0cb24b5DA520B653A5D94cFF26EB08d4Dc02",
-    "PriceOracleProxy": "0x37ac0cb24b5DA520B653A5D94cFF26EB08d4Dc02",
+    "PriceOracle": "0x8b7FBDBa2F2e7D4F4a17274A130e55fe6185c4b3",
+    "PriceOracleProxy": "0x8b7FBDBa2F2e7D4F4a17274A130e55fe6185c4b3",
     "TemporaryComptroller": "0x4cc3cc0b761b4f5581af978dd3b2269a784ec03a"
   },
   "Blocks": {
@@ -134,11 +134,11 @@
   },
   "Unitroller": {
     "description": "Unitroller",
-    "address": "0x5eAe89DC1C671724A672ff0630122ee834098657"
+    "address": "0xC3e58785F3EF826dD5B69E1849eBC33353912160"
   },
   "Comptroller": {
     "StdComptrollerG1": {
-      "address": "0x670d9C026025Ce445D7517EBD9e3dE770527D44d",
+      "address": "0x6662473b205769ECde88e57985d2c231CA193216",
       "contract": "ComptrollerG1",
       "description": "Comptroller Description"
     },
@@ -301,7 +301,7 @@
       "name": "Compound ZRX",
       "symbol": "cZRX",
       "decimals": 8,
-      "address": "0xAf45ae737514C8427D373D50Cd979a242eC59e5a",
+      "address": "0x719CDa29Aab7e4F9E3AF6550999D6a008Da1a2aB",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xE3e07F4F3E2F5A5286a99b9b8DEed08B8e07550B",
       "underlying": "0x162c44e53097e7B5aaE939b297ffFD6Bf90D1EE3",
@@ -331,7 +331,7 @@
       "name": "Compound USDC",
       "symbol": "cUSDC",
       "decimals": 8,
-      "address": "0x4a92E71227D294F041BD82dd8f78591B75140d63",
+      "address": "0x3eb9448Cd1431caa8241A2510014478eBF237640",
       "initial_exchange_rate_mantissa": "200000000000000",
       "admin": "0xE3e07F4F3E2F5A5286a99b9b8DEed08B8e07550B",
       "underlying": "0xb7a4F3E9097C08dA09517b5aB877F7a917224ede",
@@ -371,7 +371,7 @@
       "name": "Compound BAT",
       "symbol": "cBAT",
       "decimals": 8,
-      "address": "0x4a77fAeE9650b09849Ff459eA1476eaB01606C7a",
+      "address": "0xc77B8cC952559645F25cCDaC202b9841f1030C15",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xE3e07F4F3E2F5A5286a99b9b8DEed08B8e07550B",
       "underlying": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
@@ -420,7 +420,7 @@
       "name": "Compound ZRX",
       "symbol": "cZRX",
       "decimals": 8,
-      "address": "0xAf45ae737514C8427D373D50Cd979a242eC59e5a",
+      "address": "0x719CDa29Aab7e4F9E3AF6550999D6a008Da1a2aB",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xE3e07F4F3E2F5A5286a99b9b8DEed08B8e07550B",
       "underlying": "0x162c44e53097e7B5aaE939b297ffFD6Bf90D1EE3",
@@ -450,7 +450,7 @@
       "name": "Compound USDC",
       "symbol": "cUSDC",
       "decimals": 8,
-      "address": "0x4a92E71227D294F041BD82dd8f78591B75140d63",
+      "address": "0x3eb9448Cd1431caa8241A2510014478eBF237640",
       "initial_exchange_rate_mantissa": "200000000000000",
       "admin": "0xE3e07F4F3E2F5A5286a99b9b8DEed08B8e07550B",
       "underlying": "0xb7a4F3E9097C08dA09517b5aB877F7a917224ede",
@@ -512,7 +512,7 @@
       "name": "Base200bps_Slope2000bps_Jump20000bps_Kink90",
       "contract": "JumpRateModel",
       "description": "JumpRateModel  baseRate=20000000000000000 multiplier=200000000000000000 jump=2000000000000000000 kink=900000000000000000",
-      "address": "0x255559E3608a4251F04C227E57F24d9af921940E",
+      "address": "0x38a34b6801DF7591930Bb37e25e4982CcB67D759",
       "base": "20000000000000000",
       "slope": "200000000000000000",
       "jump": "2000000000000000000",
@@ -572,17 +572,17 @@
     }
   },
   "CommunityComptroller": {
-    "address": "0xA06058e40d6a6Dd0D5Dc4c6C394864BCA74d3002",
+    "address": "0x6662473b205769ECde88e57985d2c231CA193216",
     "contract": "ComptrollerKovan",
     "description": "Comptroller Description"
   },
   "PriceOracle": {
     "description": "SimplePriceOracle",
-    "address": "0x37ac0cb24b5DA520B653A5D94cFF26EB08d4Dc02"
+    "address": "0x8b7FBDBa2F2e7D4F4a17274A130e55fe6185c4b3"
   },
   "PriceOracleProxy": {},
   "TemporaryComptroller": {
-    "address": "0x4cc3cc0b761b4f5581af978dd3b2269a784ec03a",
+    "address": "0x8b7FBDBa2F2e7D4F4a17274A130e55fe6185c4b3",
     "contract": "Comptroller",
     "description": "Comptroller That snuck in"
   }
